@@ -15,4 +15,22 @@ class HomeController extends Controller
     {
         return view('home.index');
     }
+
+    /**
+     * Display login page.
+     * @return View
+     */
+    public function login(): View
+    {
+        return view('auth.login');
+    }
+
+    /**
+     * Display register page.
+     * @return View
+     */
+    public function register(): View
+    {
+        return view('auth.register');
+    }
 }

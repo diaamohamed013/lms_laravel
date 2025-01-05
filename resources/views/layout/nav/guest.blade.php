@@ -5,10 +5,10 @@
     <div class="customeContainer">
         <div class="right">
 
-            <a href="index.html" class="navLogo" name="mainLogo">
+            <a href="{{route('home')}}" class="navLogo" name="mainLogo">
                 <div class="logoBrand">
 
-                    <img width='100' height='100' src="imgs/logo.webp" alt="logo">
+                    <img width='100' height='100' src="{{asset('imgs/logo.webp')}}" alt="logo">
 
                     <h2 class="brandTitle">
                         ذاكر لي <span>رياضيات</span>
@@ -54,7 +54,7 @@
                 </form>
                 <div class="register">
                     <div class="login">
-                        <a href="login.html" class="regItem lineParent">
+                        <a href="{{route('login')}}" class="regItem lineParent">
 
                                         <span class="regIcon">
                                             <img width='100' height='100' src="imgs/login-icon.svg"
@@ -68,7 +68,7 @@
                     </div>
                     <div class="signup">
 
-                        <a href="register.html" class="regItem lineParent">
+                        <a href="{{route('register')}}" class="regItem lineParent">
 
                                         <span class="regIcon">
                                             <img width='100' height='100' src="imgs/signupBtn.svg"

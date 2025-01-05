@@ -12,7 +12,7 @@
 
 
     APP_URL = window.location.origin;
-    ASSET_URL = "index.html"
+    ASSET_URL = "/home"
 
     function progressBar() {
         let navProgChild = document.querySelector(".navProgChild");
