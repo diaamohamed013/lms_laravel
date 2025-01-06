@@ -31,7 +31,7 @@
             @include('layout.nav.auth')
         @endauth
     </div>
-
+{{--    <div id="fawaterkDivId"></div>--}}
     @include('layout.header')
 
     @yield('content')
@@ -48,6 +48,7 @@
     <script src="{{asset('js/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js')}}"></script>
     <script src="{{asset('js/swiper.bundle.min.js')}}"></script>
     <script src="{{asset('js/home.js')}}"></script>
+{{--    <script src="https://app.fawaterk.com/fawaterkPlugin/fawaterkPlugin.min.js"></script>--}}
     <script src="{{asset('js/home/index.js')}}"></script>
 
     </body>
