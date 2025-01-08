@@ -1,7 +1,6 @@
 <?php
 
 //ENG:Diaa
-//0// TODO:: make data fake for all models.
 //1// TODO:: configuration users login and register after ENG:ahmed making views.
 // TODO:: make dashboard view for teacher Features[
 //2// 'grades(create,update,index,delete)',
@@ -20,8 +19,8 @@
 
 
 //ENG:Ahmed
-// TODO:: make login view.
-// TODO:: make register view.
-// TODO:: make Subscriptions table columns.
-// TODO:: make integration with payments.
+// login view.
+// register view.
+// payment table columns.
+// integration with payments.
 // TODO:: test all features eng:Diaa added it.
