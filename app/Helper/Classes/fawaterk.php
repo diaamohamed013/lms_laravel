@@ -7,13 +7,12 @@ use Illuminate\Support\Facades\DB;
 
 class fawaterk
 {
-    protected  $curl ;
+    protected  $curl;
     protected string $customer;
     protected string $price;
     protected string $success_url;
     protected string $fail_url;
     protected string $pending_url;
-
     protected int $student_id;
     protected int $teacher_id;
     public function __construct($price,int $student_id,int $teacher_id)

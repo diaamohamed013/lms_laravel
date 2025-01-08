@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use mysql_xdevapi\Exception;
+use Exception;
 
 
 /**
@@ -24,15 +24,15 @@ use mysql_xdevapi\Exception;
 
  *
  *
-
  *
  * @method static where(string $string, mixed $input)
  * @method static paginate(int $APP_PAGINATE)
  */
 class payment extends Model
 {
-
-
+    /**
+     * @throws Exception
+     */
     public static function CreatePayment(object $data): payment
     {
         $payment = new self();

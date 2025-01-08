@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('phone');
             $table->string('parent_phone');
             $table->string('city');
+            $table->decimal('balance', 15, 2)->default(0);
             $table->foreignId('grade_id')->constrained()->onDelete('cascade');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
